@@ -238,6 +238,32 @@ $color-white: #fff;
 	}
 
 }
+/* Contact page */
+.formContact {
+	padding-bottom:25px;
+	h1 {
+		font-size:28px;
+		font-family:$fontPT;
+		color:$dark-gray;
+		padding:25px 0;
+	}
+	.btn-submit {
+		border-radius:0;
+		padding:8px 50px;
+		width:25%;
+		color:$color-white;
+		background-color:$light-red;
+		text-transform:uppercase;
+	}
+	label {
+		font-size:14px;
+		color:$dark-gray;
+		font-family:$fontArial;
+		font-weight:initial;
+	}
+}
+
+
 /* Footer */
 footer {
 	background-color:#2a2d34;

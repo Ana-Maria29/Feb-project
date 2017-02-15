@@ -44,7 +44,7 @@
     width: 100%; }
   .carousel .carousel-inner .carousel-caption {
     background-color: rgba(0, 0, 0, 0.7);
-    height: 300px;
+    height: 301px;
     width: 35%;
     top: 50%;
     margin-top: -150px;
@@ -173,6 +173,27 @@
     font-size: 22px;
     font-family: "PT Sans", sans-serif;
     color: #fff; }
+
+/* Contact page */
+.formContact {
+  padding-bottom: 25px; }
+  .formContact h1, .formContact .carousel .carousel-inner .carousel-caption p, .carousel .carousel-inner .carousel-caption .formContact p {
+    font-size: 28px;
+    font-family: "PT Sans", sans-serif;
+    color: #8d8e92;
+    padding: 25px 0; }
+  .formContact .btn-submit {
+    border-radius: 0;
+    padding: 8px 50px;
+    width: 25%;
+    color: #fff;
+    background-color: #f45a40;
+    text-transform: uppercase; }
+  .formContact label {
+    font-size: 14px;
+    color: #8d8e92;
+    font-family: "Arial";
+    font-weight: initial; }
 
 /* Footer */
 footer {
