@@ -240,6 +240,72 @@ footer {
     footer .col-md-4:nth-child(3) .ulx2 .ul1 {
       padding-right: 40px; }
 
+/* Product page */
+.product {
+  padding: 50px; }
+  .product .productImage .img-responsive {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #8d8e92; }
+  .product .productImage .col-md-4 img {
+    width: 100%;
+    border: 1px solid #8d8e92; }
+  .product .productImage #active-img {
+    border: 1px solid #f45a40; }
+  .product .productD h2 {
+    font-family: "PT Sans", sans-serif;
+    color: #8d8e92;
+    font-size: 28px; }
+  .product .productD .logoPrice {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .product .productD .logoPrice .price h2 {
+      font-size: 40px;
+      font-family: "Arial";
+      color: #000; }
+    .product .productD .logoPrice .price p {
+      font-size: 18px;
+      font-family: "Arial";
+      margin-bottom: 2px;
+      color: #8d8e92;
+      text-align: right; }
+    .product .productD .logoPrice .price p:nth-child(3) {
+      font-size: 15px; }
+  .product .productD .selectContainer {
+    padding: 20px 0; }
+    .product .productD .selectContainer .form-group {
+      font-size: 15px;
+      font-family: "Arial";
+      color: #8d8e92; }
+  .product .productD .buy-now {
+    padding: 5px 40px;
+    background-color: #f45a40;
+    color: #fff;
+    font-family: "Arial";
+    font-size: 20px;
+    border-radius: 0; }
+  .product .tabContainer {
+    padding-top: 20px; }
+    .product .tabContainer .tab-content .textTab {
+      display: flex;
+      padding-top: 20px;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .product .tabContainer .tab-content .textTab p {
+        font-size: "Arial";
+        font-size: 14px;
+        color: #8d8e92; }
+    .product .tabContainer ul.nav.nav-tabs a {
+      padding: 10px 20px;
+      background-color: #ededed;
+      color: #8d8e92;
+      font-size: 18px;
+      font-family: "Arial"; }
+    .product .tabContainer .nav-tabs > li.active a {
+      border-top: 2px solid #f45a40;
+      background-color: #fff; }
+
 /* Media */
 @media (max-width: 760px) {
   #titleProducts span {
@@ -261,4 +327,7 @@ footer {
   .carousel {
     height: auto; }
     .carousel .carousel-inner .carousel-caption {
-      display: none; } }
+      display: none; }
+  ul.nav.nav-tabs {
+    display: flex;
+    flex-direction: column; } }
