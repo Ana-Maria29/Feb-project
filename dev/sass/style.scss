@@ -410,11 +410,11 @@ footer {
 			
 			.textTab {
 				display:flex;
-				padding-top:20px;
-				justify-content:space-between;
-				flex-wrap:wrap;
+				padding-top:15px;
+				padding-right:1px;
+				
 				p {
-					font-size:$fontArial;
+					font-family:$fontArial;
 					font-size:14px;
 					color:$dark-gray;
 				}

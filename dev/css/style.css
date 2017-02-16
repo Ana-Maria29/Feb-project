@@ -298,11 +298,10 @@ footer {
     padding-top: 20px; }
     .product .tabContainer .tab-content .textTab {
       display: flex;
-      padding-top: 20px;
-      justify-content: space-between;
-      flex-wrap: wrap; }
+      padding-top: 15px;
+      padding-right: 1px; }
       .product .tabContainer .tab-content .textTab p {
-        font-size: "Arial";
+        font-family: "Arial";
         font-size: 14px;
         color: #8d8e92; }
     .product .tabContainer ul.nav.nav-tabs a {
