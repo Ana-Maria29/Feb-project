@@ -108,56 +108,56 @@
 
 .productDetails {
   margin: 40px 0; }
-  .productDetails .col-md-3 .wrap {
+  .productDetails .col-md-3 .secondCon {
     position: relative;
     border: 1px solid #ededed;
     margin-bottom: 30px; }
-    .productDetails .col-md-3 .wrap img {
+    .productDetails .col-md-3 .secondCon img {
       width: 100%;
       position: relative; }
-    .productDetails .col-md-3 .wrap .star {
+    .productDetails .col-md-3 .secondCon .star {
       position: absolute;
       left: 5px;
       top: 0; }
-      .productDetails .col-md-3 .wrap .star .fa-star {
+      .productDetails .col-md-3 .secondCon .star .fa-star {
         color: #f45a40; }
-    .productDetails .col-md-3 .wrap article {
+    .productDetails .col-md-3 .secondCon article {
       border-bottom: 1px solid #ededed; }
-      .productDetails .col-md-3 .wrap article h3 {
+      .productDetails .col-md-3 .secondCon article h3 {
         font-size: 18px;
         font-family: "PT Sans", sans-serif;
         color: #8d8e92;
         padding: 0 5px; }
-      .productDetails .col-md-3 .wrap article h6 {
+      .productDetails .col-md-3 .secondCon article h6 {
         font-size: 14px;
         font-family: "Arial";
         color: #8d8e92;
         padding: 0 5px; }
-      .productDetails .col-md-3 .wrap article p {
+      .productDetails .col-md-3 .secondCon article p {
         font-size: 12px;
         font-family: "Arial";
         color: #8d8e92;
         padding: 0 5px; }
-    .productDetails .col-md-3 .wrap .row {
+    .productDetails .col-md-3 .secondCon .row {
       padding-top: 5px; }
-      .productDetails .col-md-3 .wrap .row p {
+      .productDetails .col-md-3 .secondCon .row p {
         font-size: 12px;
         font-family: "Arial";
         color: #8d8e92;
         padding: 0 5px;
         color: #f45a40; }
-      .productDetails .col-md-3 .wrap .row .col-md-1 .fa {
+      .productDetails .col-md-3 .secondCon .row .col-md-1 .fa {
         color: #8d8e92; }
-      .productDetails .col-md-3 .wrap .row .circle {
+      .productDetails .col-md-3 .secondCon .row .circle {
         padding-left: 5px; }
-    .productDetails .col-md-3 .wrap .btn-buy {
+    .productDetails .col-md-3 .secondCon .btn-buy {
       width: 100%;
       padding: 10px 0;
       text-align: center;
       color: #fff;
       background-color: #f45a40;
       margin-top: 5px; }
-      .productDetails .col-md-3 .wrap .btn-buy:hover {
+      .productDetails .col-md-3 .secondCon .btn-buy:hover {
         background-color: #2a2d34; }
 
 /* NEWS */
