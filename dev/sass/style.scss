@@ -4,6 +4,7 @@ $fontPT : 'PT Sans', sans-serif;
 $fontArial: 'Arial';
 $light-red: #f45a40;
 $color-white: #fff;
+$btnHover : #2a2d34;
 /**
  *
  * Navigation
@@ -207,6 +208,9 @@ $color-white: #fff;
 				color:$color-white;
 				background-color:$light-red;
 				margin-top:5px;
+				&:hover {
+					background-color:$btnHover;
+				}
 			}
 		}
 		
@@ -225,7 +229,7 @@ $color-white: #fff;
 		background-color:#ff674f;
 		color:$color-white;
 		&:hover {
-		background-color:$dark-gray;
+		background-color:$btnHover;
 		color:$color-white;
 		}
 	}
@@ -254,6 +258,10 @@ $color-white: #fff;
 		color:$color-white;
 		background-color:$light-red;
 		text-transform:uppercase;
+		&:hover {
+			background-color:$btnHover;
+			color:$color-white;
+		}
 	}
 	label {
 		font-size:14px;
@@ -266,7 +274,7 @@ $color-white: #fff;
 
 /* Footer */
 footer {
-	background-color:#2a2d34;
+	background-color:$btnHover;
 	width:100%;
 	.col-md-4 {
 		padding:15px;
@@ -318,6 +326,9 @@ footer {
 			a {
 				color:$dark-gray;
 				text-decoration:none;
+				&:hover {
+					color:$light-red;
+				}
 			}
 		  }
 		  .ul1 {
@@ -388,6 +399,9 @@ footer {
 			font-family:$fontArial;
 			font-size:20px;
 			border-radius:0;
+			&:hover {
+				background-color:$btnHover;
+			}
 		}
 	}
 	.tabContainer {
