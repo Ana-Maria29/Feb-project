@@ -72,7 +72,7 @@ $btnHover : #2a2d34;
 			top:50%;
 			margin-top:-150px;
 			left:0;
-			padding:60px 0;
+			padding:35px 0;
 			h1:first-child {
 				margin-bottom:0;
 			}
@@ -446,6 +446,9 @@ footer {
 		.icon-bar {
 			background-color:$light-gray;
 		}
+	}
+	.formContact .btn-submit {
+		width:100%;
 	}
 	.navbar.secondNav {
 		.nav-drop a {

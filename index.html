@@ -18,7 +18,18 @@
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+    <!-- load dependencies -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
 
+    <!--load angular-->
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script>
+        System.import('app').catch(function(err) { console.error(err); });
+    </script>
 </head>
 <body>
 	<!-- Nav Section -->
@@ -84,10 +95,9 @@
 				<img  alt="First slide" src="dev/img/carousel-img.jpg">
 				<div class="container">
 					<div class="carousel-caption">
-						<h1>RIGHT IS PINK</h1>
-						<h1>LEFT IS BLUE</h1>
-						<p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch playmakers, these kicks are ready to stand out.</p>
-						<p><a class="btn-carousel" href="#" role="button">Sign up today</a></p>
+						<h1>THE NIKE CORTEZ</h1>
+						<p>Nike's heritage running shoe, born in '72, set the industry standard on the track and in the heart.</p>
+						<p><a class="btn-carousel" href="#" role="button">Shop Now</a></p>
 					</div>
 				</div>
 			</div>
@@ -111,18 +121,18 @@
 	<section class="container products">
 		<div class="row">
 			<div class="col-md-4">
-				<img src="dev/img/soccer-shoe.jpg" alt="">
-				<h3>Football shoes</h3>
+				<img src="dev/img/running-equipment.jpg" alt="">
+				<h3>Running equipment</h3>
+				<prod-description></prod-description>
+			</div>
+			<div class="col-md-4">
+				<img src="dev/img/ski-equipment.jpg" alt="">
+				<h3>Ski equipment</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit neque magnam tempora eum similique vel dignissimos, minus fugiat autem, vero harum, corporis est. Esse quod, nesciunt corporis. Voluptatem, quod, sit.</p>
 			</div>
 			<div class="col-md-4">
-				<img src="dev/img/soccer-shoe.jpg" alt="">
-				<h3>Modern Clothes</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit neque magnam tempora eum similique vel dignissimos, minus fugiat autem, vero harum, corporis est. Esse quod, nesciunt corporis. Voluptatem, quod, sit.</p>
-			</div>
-			<div class="col-md-4">
-				<img src="dev/img/soccer-shoe.jpg" alt="">
-				<h3>Bags & accessories</h3>
+				<img src="dev/img/running-shoes.jpg" alt="">
+				<h3>Running shoes</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit neque magnam tempora eum similique vel dignissimos, minus fugiat autem, vero harum, corporis est. Esse quod, nesciunt corporis. Voluptatem, quod, sit.</p>
 			</div>
 		</div>
@@ -136,7 +146,7 @@
 		<div class="row">
 			<div class="col-md-3">
 			  <div class="secondCon">
-					<img src="dev/img/soccer-shoe.jpg" class="img-responsive" alt="">
+					<img src="dev/img/Shoe1.jpg" class="img-responsive" alt="">
 					<div class="star">
 						<i class="fa fa-star" aria-hidden="true"></i>
 						<i class="fa fa-star" aria-hidden="true"></i>
@@ -165,7 +175,7 @@
 			</div>
 			<div class="col-md-3">
 			  <div class="secondCon">
-					<img src="dev/img/soccer-shoe.jpg" class="img-responsive" alt="">
+					<img src="dev/img/Shoe1.jpg" class="img-responsive" alt="">
 					<div class="star">
 						<i class="fa fa-star" aria-hidden="true"></i>
 						<i class="fa fa-star" aria-hidden="true"></i>
@@ -194,7 +204,7 @@
 			</div>
 			<div class="col-md-3">
 			  <div class="secondCon">
-					<img src="dev/img/soccer-shoe.jpg" class="img-responsive" alt="">
+					<img src="dev/img/Shoe1.jpg" class="img-responsive" alt="">
 					<div class="star">
 						<i class="fa fa-star" aria-hidden="true"></i>
 						<i class="fa fa-star" aria-hidden="true"></i>
@@ -223,7 +233,7 @@
 			</div>
 			<div class="col-md-3">
 			  <div class="secondCon">
-					<img src="dev/img/soccer-shoe.jpg" class="img-responsive" alt="">
+					<img src="dev/img/Shoe1.jpg" class="img-responsive" alt="">
 					<div class="star">
 						<i class="fa fa-star" aria-hidden="true"></i>
 						<i class="fa fa-star" aria-hidden="true"></i>
@@ -252,7 +262,7 @@
 			</div>
 			<div class="col-md-3">
 			  <div class="secondCon">
-					<img src="dev/img/soccer-shoe.jpg" class="img-responsive" alt="">
+					<img src="dev/img/Shoe1.jpg" class="img-responsive" alt="">
 					<div class="star">
 						<i class="fa fa-star" aria-hidden="true"></i>
 						<i class="fa fa-star" aria-hidden="true"></i>
@@ -281,7 +291,7 @@
 			</div>
 			<div class="col-md-3">
 			  <div class="secondCon">
-					<img src="dev/img/soccer-shoe.jpg" class="img-responsive" alt="">
+					<img src="dev/img/Shoe1.jpg" class="img-responsive" alt="">
 					<div class="star">
 						<i class="fa fa-star" aria-hidden="true"></i>
 						<i class="fa fa-star" aria-hidden="true"></i>
@@ -310,7 +320,7 @@
 			</div>
 			<div class="col-md-3">
 			  <div class="secondCon">
-					<img src="dev/img/soccer-shoe.jpg" class="img-responsive" alt="">
+					<img src="dev/img/Shoe1.jpg" class="img-responsive" alt="">
 					<div class="star">
 						<i class="fa fa-star" aria-hidden="true"></i>
 						<i class="fa fa-star" aria-hidden="true"></i>
@@ -339,7 +349,7 @@
 			</div>
 			<div class="col-md-3">
 			  <div class="secondCon">
-					<img src="dev/img/soccer-shoe.jpg" class="img-responsive" alt="">
+					<img src="dev/img/Shoe1.jpg" class="img-responsive" alt="">
 					<div class="star">
 						<i class="fa fa-star" aria-hidden="true"></i>
 						<i class="fa fa-star" aria-hidden="true"></i>
